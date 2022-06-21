@@ -1,5 +1,5 @@
 # RCC
-Albion repair cost calculator
+Albion online repair cost calculator
 ## Розробляв сам (дизайн включно)
 ### Технології у проекті: 
 - Html
