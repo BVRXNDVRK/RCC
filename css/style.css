@@ -204,31 +204,8 @@ template {
 .plus-button {
   border: none;
   background: none;
-  position: relative;
   cursor: pointer;
   margin-left: 90px;
-}
-.plus-button:before {
-  content: "";
-  position: absolute;
-  left: 29px;
-  width: 16px;
-  height: 50px;
-  display: block;
-  border-radius: 50px;
-  background-color: white;
-}
-.plus-button:after {
-  content: "";
-  position: absolute;
-  left: 12px;
-  top: 17px;
-  width: 50px;
-  height: 14px;
-  display: block;
-  border-radius: 50px;
-  transform: translate;
-  background-color: white;
 }
 
 .main {
@@ -386,6 +363,7 @@ template {
   font-size: 40px;
   line-height: 48px;
   color: #FFFFFF;
+  transition: all 0.6s;
 }
 .footer__socials-wrapper {
   margin-right: 140px;
