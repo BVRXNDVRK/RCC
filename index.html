@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,28 @@
     <title>RCC - Repair Cost Calculator</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
 
     <section class="main">
-        <nav class="main__nav">`
+        <nav class="main__nav">
             <ul class="main__menu-list">
-                <li class="main__list-item" id="instructionBtn">
-                    <a class="main__link" href="#">Instruction</a>
-                </li>
-                <li class="main__list-item" id="calculatorBtn">
-                    <a class="main__link" href="#">Calculator</a>
-                </li>
-                <li class="main__list-item" id="aboutBtn">
-                    <a class="main__link" href="#">About</a>
-                </li>
+                <div class="main__item-wrapper" id="instructionBtn">
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">Instruction</a>
+                    </li>
+                </div>
+                <div class="main__item-wrapper" id="calculatorBtn">
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">Calculator</a>
+                    </li>
+                </div>
+                <div class="main__item-wrapper" id="aboutBtn">
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">About</a>
+                    </li>
+                </div>
+
             </ul>
         </nav>
 
@@ -83,13 +92,14 @@
                         </tr>
                     </table>
                     <table class="main__table">
-    
+
                     </table>
                     <button class="plus-button">
-                        <svg width="50" height="50" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="75" width="50" height="200" rx="25" fill="white"/>
-                            <rect y="75" width="200" height="50" rx="25" fill="white"/>
-                        </svg>                                                
+                        <svg width="50" height="50" viewBox="0 0 200 200" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="75" width="50" height="200" rx="25" fill="white" />
+                            <rect y="75" width="200" height="50" rx="25" fill="white" />
+                        </svg>
                     </button>
                     <table class="main__sum-row">
                         <tr class="main__tr">
@@ -127,11 +137,13 @@
                 One day i wish to know how the price for repairs is calculated so I started looking for a formula.<br>
                 Here is the result =)<br>
                 The cost of repairing weapons and mounts shows accurately.<br>
-                Everything else with a small difference (so far I haven`t identified a variable that affects this). 
-                </p>
+                Everything else with a small difference (so far I haven`t identified a variable that affects this).
+            </p>
         </div>
 
-        <button class="back-button"> ← To the main page</button>
+        <div class="backBtn-wrapper">
+            <button class="backBtn"> ← To the main page</button>
+        </div>
     </section>
 
     <footer class="footer">
@@ -143,7 +155,7 @@
             <a class="footer__social-link" href="https://t.me/BVRXNDVRK">
                 <img class="footer__social-icon" src="img/icons/Telegram.png" alt="Telegram logo">
             </a>
-            <a class="footer__social-link" href="https://twitter.com/barxndvrk">    
+            <a class="footer__social-link" href="https://twitter.com/barxndvrk">
                 <img class="footer__social-icon" src="img/icons/Twitter.png" alt="Twitter logo">
             </a>
             <a class="footer__social-link" href="mailto:igor.logvenyuk@gmail.com">
@@ -152,6 +164,7 @@
         </div>
     </footer>
 
-<script src="js/app.min.js"></script>    
+    <script src="js/app.min.js"></script>
 </body>
+
 </html>
